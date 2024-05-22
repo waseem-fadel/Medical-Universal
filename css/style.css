@@ -1,0 +1,677 @@
+:root {
+    --main-color: #FC724D;
+    --secondery-color: #737373;
+    --text-color: #252B42;
+    --danger-color: #E74040;
+}
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* Start Header */
+.container {
+    height: 110vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #fff, #dddddd,  transparent, transparent), url(../images/background.png);
+    opacity: 200%;
+    background-size: cover;
+    background-position: center;
+} 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo {
+    color: var(--text-color);
+    font-size: 28px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a {
+    color: var(--secondery-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.4s;
+}
+nav ul li a:hover {
+    color: #fff;
+}
+input {
+    border: none;
+    background-color: transparent;
+    color: var(--main-color);
+    padding-left: 380px;
+    font-size: 20px;
+    transition: 0.4s;
+}
+input:hover {
+    transform: skewx(10px);
+    color: #d65e3c;
+    cursor: pointer;
+}
+.button {
+    border: none;
+    background: var(--main-color);
+    padding: 12px 30px;
+    margin-right: 100px;
+    border-radius: 3px;
+    color: var(--secondery-color);
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.4s;
+}
+.button:hover {
+    transform: scalex(1.3);
+    cursor: pointer;
+}
+/* End Header */
+/* Start Home */
+.home {
+    padding: 150px 158px;
+}
+h5{
+    color: var(--main-color);
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.home h1{
+    color: var(--text-color);
+    padding-bottom: 0px;
+    padding-top: -70px;
+    font-size: 60px;
+    width: 500px;
+}
+h4 {
+    color: var(--secondery-color);
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.btn1 {
+    border: none;
+    background-color: var(--main-color);
+    padding: 12px 30px;
+    border-radius: 3px;
+    color: var(--secondery-color);
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-right: 20px;
+}
+.btn1:hover {
+    transform: scale(1.1, 1.1);
+}
+.btn2 {
+    border: 3px solid var(--main-color);
+    background-color: transparent;
+    padding: 9px 20px ;
+    border-radius: 3px;
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn2:hover {
+  transform: scale(1.1, 1.1);
+}
+/* End Home */
+/* Satrt First Area */
+.text {
+    padding: 105px 155px;
+}
+h6 {
+    color: var(--main-color);
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+h2 {
+    color: var(--text-color);
+    font-size: 55px;
+    padding-bottom: 10px;
+}
+p{
+    color: var(--secondery-color);
+}
+.ip {
+    display: flex;
+    padding: 50px 155px;
+    background-color: #fff;
+}
+.ip1 {
+    padding: 36px 41px;
+    box-shadow: 1px 2px 13px 13px #e6e6e6;
+    height: 42vh;
+    width: 490px;
+    transition: 0.4s;
+}
+.ip1:hover {
+    background-color: var(--main-color);
+    transform: scale(1.1, 1.1);
+    hr {
+        border-top: 3px solid #fff;
+    }
+    h4 {
+        color: #fff;
+    }
+    p {
+        color: #fff;
+    }
+}
+.ip2 {
+    padding: 36px 41px;
+    box-shadow: 1px 2px 13px 13px #e6e6e6;
+    width: 490px;
+    height: 42vh;
+    margin-left: 30px;
+    transition: 0.4s;
+}
+.ip2:hover {
+    background-color: var(--main-color);
+    transform: scale(1.1, 1.1);
+    hr {
+        border-top: 3px solid #fff;
+    }
+    h4 {
+        color: #fff;
+    }
+    p {
+        color: #fff;
+    }
+}
+.ip3 {
+    padding: 36px 41px;
+    box-shadow: 1px 2px 13px 13px #e6e6e6;
+    width: 490px;
+    height: 42vh;
+    margin-left: 30px;
+    transition: 0.4s;
+}
+.ip3:hover {
+    background-color: var(--main-color);
+    transform: scale(1.1, 1.1);
+    hr {
+        border-top: 3px solid #fff;
+    }
+    h4 {
+        color: #fff;
+    }
+    p {
+        color: #fff;
+    }
+}
+.ip4 {
+    padding: 36px 41px;
+    box-shadow: 1px 2px 13px 13px #e6e6e6;
+    width: 490px;
+    height: 42vh;
+    margin-left: 30px;
+    transition: 0.4s;
+}
+.ip4:hover {
+    background-color: var(--main-color);
+    transform: scale(1.1, 1.1);
+    hr {
+        border-top: 3px solid #fff;
+    }
+    h4 {
+        color: #fff;
+    }
+    p {
+        color: #fff;
+    }
+}
+.ip1 h4 {
+    color: var(--text-color);
+    font-size: 20px;
+    transition: 0.4s;
+}
+.ip2 h4 {
+    color: var(--text-color);
+    font-size: 20px;
+    transition: 0.4s;
+}
+.ip3 h4 {
+    color: var(--text-color);
+    font-size: 20px;
+    transition: 0.4s;
+}
+.ip4 h4 {
+    color: var(--text-color);
+    font-size: 20px;
+    transition: 0.4s;
+}
+hr {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: 3px solid var(--danger-color);
+    padding-bottom: 10px;
+    width: 55px;
+    transition: 0.4s;
+}
+/* End First Area */
+/*  Start Second Area */
+.secarea {
+    padding: 250px 155px;
+}
+.secarea hr {
+    width: 100px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: 5px solid var(--danger-color);
+    padding-bottom: 40px;
+}
+.secarea p {
+    width: 320px;
+    padding-top: 30px;
+}
+.secarea button {
+    margin: 40px 0;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: var(--main-color);
+    cursor: pointer;
+    transition: 0.4s;
+}
+.secarea button img {
+    margin-bottom: -4px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.secarea button:hover {
+    transform: scale(1.1, 1.1);
+}
+ .secarea .fe-img {
+    display: flex;
+    margin: -390px 665px;
+    border-radius: 30px;
+}
+/* End Second Area */
+/* Start Thrid Area */
+.images {
+    padding: 498px 700px;
+}
+.images .square {
+    width: 140px;
+    height: 160px;
+    background-color: #5AACA8;
+}
+.images .img1 {
+    margin: -124px -327px;
+}
+.images .img2 {
+    margin: -190px -190px;
+}
+.thridarea .text {
+    margin: -837px 800px;
+}
+.thridarea .text hr {
+    width: 100px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: 5px solid var(--danger-color);
+    padding-bottom: 40px;
+}
+.thridarea .text h2 {
+    width: 500px;
+}
+.thridarea .text p {
+    width: 310px;
+    padding-top: 30px;
+}
+.thridarea .text button {
+    width: 150px;
+    margin: 40px -27px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: var(--main-color);
+    cursor: pointer;
+    transition: 0.4s;
+}
+.thridarea button img {
+    margin-bottom: -4px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.thridarea button:hover {
+    transform: scale(1.1, 1.1);
+}
+/* End Thrid Area */
+/* Start Fourth Area */
+.forarea {
+    padding: 1049px 136px;
+}
+.forarea .text p {
+    width: 310px;
+}
+.forarea .cards {
+    display: flex;
+    position: relative;
+    padding-left: 150px;
+}
+.forarea .cards .sl {
+    position: absolute;
+    background-color: var(--danger-color);
+    border-radius: 3px;
+    transform: translate(-30vh, 17px);
+    border: none;
+    color: white;
+    padding: 3px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.forarea .cards .sl:hover {
+    background-color: #b92121;
+}
+.forarea .cards .icon {
+    display: flex;
+    margin: 10px 5px;
+}
+.forarea .cards .icon div {
+    background-color: #ffffff;
+    width: 30px;
+    height: 25px;
+    border-radius: 50%;
+}
+.forarea .cards .icon div svg {
+    position: absolute;
+    margin-right: 10px;
+}
+.cards h5 {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.cards h6 {
+    color: var(--text-color);
+    width: 150px;
+}
+.cards .co2 h6 {
+    width: 100px;
+}
+.cards .icn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cards .icn svg {
+    margin-bottom: -5px;
+}
+.cards .prc span {
+    text-decoration: line-through;
+    padding-right: 10px;
+   
+}
+.cards .prc {
+    padding-bottom: 20px;
+}
+.forarea button {
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.forarea button img {
+    margin-bottom: -3px;
+    margin-left: 5px;
+    transition: 0.4s;
+}
+.forarea button:hover {
+    transform: scale(1.1, 1.1);
+}
+/* End Fourth Area */
+/* Start Five Area */
+.fivearea {
+    position: relative;
+    top: -764px;
+}
+.fivearea .text p {
+    width: 370px;
+}
+.fivearea .users {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.fivearea .users .u1{
+    margin-right: 300px;
+}
+.fivearea .users .name {
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+.fivearea .users .user {
+    border-radius: 50%;
+}
+.fivearea .users p {
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* End Five Area */
+/* Start Six Area */
+.sixarea {
+    position: relative;
+    top: -600px;
+}
+.sixarea .text p {
+    width: 370px;
+}
+.sixarea .teams {
+    display: flex;
+    justify-content: center;
+    
+}
+.sixarea .teams img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    }
+.sixarea .teams .t1 {
+    position: relative;
+    margin-right: 40px;
+    background-color: #fff;
+    width: 31.2vh;
+    box-shadow: 0 0 20px 6px #b5b5b5;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.sixarea .teams .t1:hover {
+    transform: scale(1.1, 1.1);
+}
+.sixarea .teams .t2 {
+    position: relative;
+    margin-right: 40px;
+    background-color: #fff;
+    width: 31.2vh;
+    box-shadow: 0 0 20px 6px #b5b5b5;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.sixarea .teams .t2:hover {
+    transform: scale(1.1, 1.1);
+}
+.sixarea .teams .t3 {
+    position: relative;
+    margin-right: 40px;
+    background-color: #fff;
+    width: 31.2vh;
+    box-shadow: 0 0 20px 6px #b5b5b5;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.sixarea .teams .t3:hover {
+    transform: scale(1.1, 1.1);
+}
+.sixarea .teams .t4 {
+    position: relative;
+    margin-right: 40px;
+    background-color: #fff;
+    width: 31.2vh;
+    box-shadow: 0 0 20px 6px #b5b5b5;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.sixarea .teams .t4:hover {
+    transform: scale(1.1, 1.1);
+}
+.sixarea .teams .w {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.sixarea .teams .w h3 {
+    color: var(--text-color);
+    padding-top: 20px;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.sixarea .teams .icon i {
+    color: var(--main-color);
+    font-size: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.sixarea .teams .icon i:hover {
+    transform: scale(1.3, 1.3);
+}
+/* End Six Area */
+/* Start Seven Area */
+.sevenarea {
+    position: relative;
+    top: -373px;
+}
+.sevenarea .text {
+    text-align: center;
+}
+.sevenarea .email {
+    text-align: center;
+}
+.sevenarea .email input {
+    padding: 14px 240px;
+    border-top: 2px solid #E6E6E6;
+    border-left: 2px solid #E6E6E6;
+    border-bottom: 2px solid #E6E6E6;
+    border-right: none;
+    background-color: #F9F9F9;
+}
+.sevenarea .email input::placeholder {
+    position: relative;
+    right: 200px;
+}
+.sevenarea .email input:hover {
+    transform: scale(1, 1);
+}
+.sevenarea .email input:focus {
+    color: var(--text-color);
+    text-transform: lowercase;
+}
+.sevenarea .email button {
+    position: relative;
+    padding: 16px 30px;
+    border: none;
+    background-color: var(--main-color);
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    right: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.sevenarea .email button:hover {
+    background-color: #d65e3c;
+}
+/* End Seven Area */
+/* Start Table Area */
+.table table {
+    position: relative;
+    left: 200px;
+    width: 1250px;
+    border-spacing: 20px;
+    padding-bottom: 100px;
+}
+.table table thead {
+    position: relative;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 20px;
+    top: -20px;
+    width: 200px;
+}
+.table table tbody td {
+    width: 1000px;
+    color: var(--secondery-color);
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.table table tbody td:hover {
+    color: #474747;
+}
+.table table tbody td i {
+    color: var(--main-color);
+    padding-right: 20px;
+    font-size: 25px;
+}
+.table table tbody td span a {
+    text-decoration: none;
+    color: var(--secondery-color);
+}
+.table table tbody td span a:hover{
+    color: #474747;
+}
+/* End Table Area */
+/* Start Footer */
+.end {
+    background-color: #FAFAFA;
+    height: 70px;
+}
+.end footer  {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: calc(70px /3);
+}
+.end footer .pa p {
+    padding-right:  500px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.end footer .linkes {
+    cursor: pointer;
+}
+.end footer .linkes i {
+    color: var(--main-color);
+    padding-right: 20px;
+    font-size: 20px;
+    transition: 0.4s;
+}
+.end footer .linkes i:hover {
+    transform: scale(1.2, 1.2);
+    color: #ff8664;
+}
+/* End Footer */
